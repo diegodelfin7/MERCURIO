@@ -30,4 +30,9 @@ class AlmacenController extends Controller
 
         return view('almacen.index', $data);
     }
+
+    public function update()
+    {
+        return view('almacen.update');
+    }
 }

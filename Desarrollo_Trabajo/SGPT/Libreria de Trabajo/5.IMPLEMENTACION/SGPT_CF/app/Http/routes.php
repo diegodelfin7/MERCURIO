@@ -20,5 +20,10 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 
 Route::get('/almacen', 'AlmacenController@index');
+Route::get('/almacen/update', 'AlmacenController@update');
+
 Route::get('/empleado', 'EmpleadoController@index');
+Route::get('/empleado/update', 'EmpleadoController@update');
+
 Route::get('/tienda', 'TiendaController@index');
+Route::get('/tienda/update', 'TiendaController@update');
